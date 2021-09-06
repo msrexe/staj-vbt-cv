@@ -1,0 +1,147 @@
+.container {
+    display: block;
+    max-width: 600px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 27px;
+  color: #252525;
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.drop-box {
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  text-align: center;
+  background: #fafafa;
+  border: 1px dashed #bdbdbd;
+  border-radius: 10px;
+  margin-top: 34px;
+  margin-left: 45px;
+  margin-right: 45px;
+  height: 149px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.arrow {
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 50px;
+  width: 60px;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.upload-button {
+    text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  border: none;
+  padding: 10px 150px 11px 150px;
+  margin-top: 21px;
+  height: 45px;
+  background: #6b5acc;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.position-select {
+  font-size: 14px;
+  line-height: 21px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 45px;
+  margin-top: 21px;
+  width: 80%;
+  padding: 6px 8px;
+}
+
+.tag-select {
+    text-align: left;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  color: #8b8b8b;
+  height: 317px;
+  width: 80%;
+  overflow-y: auto;
+  margin: 0 auto;
+  margin-top: 21px;
+}
+
+.checkbox-round {
+position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round::after{
+    position: absolute;
+    content: "✓";
+    color: white;
+    font-size: 9px;
+    font-weight: 900;
+    margin: 0 auto;
+    left: 3px;
+}
+
+.checkbox-round:checked {
+  background-color: #6b5acc;
+}
+
+.languages {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: left;
+  list-style: none;
+  column-count: 2;
+  padding: 0px;
+}
+
+.submit-button {
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  border: none;
+  padding: 10px 150px 11px 150px;
+  margin-top: 21px;
+  margin-bottom: 45px;
+  height: 45px;
+  background: #172531;
+  border-radius: 10px;
+  width: 80%;
+}
