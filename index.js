@@ -81,9 +81,12 @@ function submitValues() {
   let selectedPosition = getSelectedPosition();
   let selectedTags = getSelectedTags();
   if (fileToUpload != null && selectedTags.length != 0 && selectedPosition != ''){
-    console.log("gönderim başarılı")
+    //request atma
+    alert("Gönderme başarılı")
+
+    // document.getElementById("page-content").innerHTML = `<div class="success-msg"><p style="text-align:center;">✔ Başvurunuz başarıyla gönderilmiştir.</p></div>`
   }else {
-    
+    alert("Lütfen tüm alanları doldurunuz")
   }
 }
 
