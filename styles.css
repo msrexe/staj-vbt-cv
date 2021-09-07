@@ -65,6 +65,7 @@
   background: #6b5acc;
   border-radius: 10px;
   width: 80%;
+  cursor: pointer;
 }
 
 .position-select {
@@ -122,6 +123,10 @@ position: relative;
   background-color: #6b5acc;
 }
 
+.tag{
+  margin-bottom: 9px;
+}
+
 .tags {
   font-size: 13px;
   line-height: 19px;
@@ -142,4 +147,5 @@ position: relative;
   background: #172531;
   border-radius: 10px;
   width: 80%;
+  cursor: pointer;
 }
