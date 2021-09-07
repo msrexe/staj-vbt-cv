@@ -1,3 +1,7 @@
+.dark-theme{
+  background-color: #201e2a!important;
+}
+
 .container {
     display: block;
     max-width: 600px;
@@ -54,8 +58,8 @@
   margin-top: 28px;
 }
 
-.upload-button {
-    text-align: center;
+.select-file-button {
+  text-align: center;
   font-size: 16px;
   line-height: 24px;
   color: white;
@@ -81,7 +85,7 @@
 }
 
 .tag-select {
-    text-align: left;
+  text-align: left;
   background-color: #ffffff;
   font-size: 14px;
   line-height: 21px;
@@ -95,6 +99,20 @@
   margin-top: 21px;
 }
 
+.tag-select::-webkit-scrollbar {
+  width: 4.2px;
+}
+
+.tag-select::-webkit-scrollbar-track {
+background-color: #E5E5E5;
+border-radius: 10px;
+}
+
+.tag-select::-webkit-scrollbar-thumb {
+background: #acacac;
+border-radius: 10px;
+}
+
 .checkbox-round {
 position: relative;
   width: 15px;
@@ -106,7 +124,6 @@ position: relative;
   appearance: none;
   -webkit-appearance: none;
   outline: none;
-  cursor: pointer;
 }
 
 .checkbox-round::after{
@@ -125,11 +142,12 @@ position: relative;
 
 .tag{
   margin-bottom: 9px;
+  cursor: pointer;
 }
 
 .tags {
   font-size: 13px;
-  line-height: 19px;
+  line-height: 19.5px;
   text-align: left;
   list-style: none;
   column-count: 2;

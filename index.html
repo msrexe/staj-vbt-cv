@@ -89,7 +89,7 @@
           Az da bilseniz lütfen işaretleyiniz.
         </p>
       </div>
-      <div class="drop-box text" draggable="true">
+      <div class="drop-box text" id="drop-zone">
         <div class="arrow">
           <svg
             width="58"
@@ -114,10 +114,13 @@
         </div>
         <p>Sürükle Bırak</p>
       </div>
-      <button class="upload-button text">Yükle</button>
-      <div id="position-select">
-        <select class="position-select text" id="position-combobox" onchange="getSelectedPosition()">
-        </select>
+      <button class="select-file-button text" onclick="selectUploadFile()">Dosya Seç</button>
+      <div id="position-select">  
+        <select
+          class="position-select text"
+          id="position-combobox"
+          onchange="getSelectedPosition()"
+        ></select>
       </div>
       <div id="tag-select" class="tag-select text">
         <div style="padding: 3px 14px">
@@ -125,11 +128,12 @@
             Etiket Seç <br />
             Bu etiketlerin bize çok faydası olacaktır. Lütfen eksiksiz giriniz.
           </p>
-          <ul class="tags" id="tags">
-          </ul>
+          <ul class="tags" id="tags"></ul>
         </div>
       </div>
-      <button class="submit-button text" type="button" onclick="submitValues()">Gönder</button>
+      <button class="submit-button text" type="button" onclick="submitValues()">
+        Gönder
+      </button>
     </div>
   </body>
   <script src="index.js"></script>
