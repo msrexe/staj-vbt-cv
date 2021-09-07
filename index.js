@@ -38,7 +38,7 @@ function loadTags() {
   let tagsArr = getTags();
   tagsArr.forEach((element) => {
     document.getElementById("tags").innerHTML +=
-      '<li><div class="tag"><input type="checkbox" class="checkbox-round" id="' +
+      '<li class="tag"><div><input type="checkbox" class="checkbox-round" id="' +
       element +
       '" /><label for="' +
       element +
