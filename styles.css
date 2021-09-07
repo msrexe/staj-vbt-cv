@@ -124,6 +124,7 @@ position: relative;
   appearance: none;
   -webkit-appearance: none;
   outline: none;
+  cursor: pointer;
 }
 
 .checkbox-round::after{
@@ -142,7 +143,6 @@ position: relative;
 
 .tag{
   margin-bottom: 9px;
-  cursor: pointer;
 }
 
 .tags {
